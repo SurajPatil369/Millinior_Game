@@ -11,6 +11,10 @@ function App() {
   const [earned, setEarned] = useState("$ 0");
   const [isPlayAgain, setIsPlayAgain] = useState(true)
 
+  function add() {
+      return a+b
+  }
+
   const data = [
     {
       id: 1,
